@@ -1,0 +1,21 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "browsers": [
+                        "last 2 versions",
+                        "safari >= 7"
+                    ]
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        "transform-runtime",
+        "transform-object-rest-spread",
+        "syntax-dynamic-import",
+        ["transform-react-jsx", { "pragma": "h" }]
+    ]
+}
