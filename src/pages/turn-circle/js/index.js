@@ -7,11 +7,10 @@ import 'Common/js/h5-discern-simulator';
 import './activity';
 
 
-window.loadFilesAsync = Promise.all([
+Promise.all([
     import('Common/js/common'),
     import('Common/style/common.scss')
 ])
     .then(() => {
         loaderAsyncCallback();
     });
-

@@ -37,6 +37,7 @@ module.exports = {
 	commonAlias: {
 		Static: 'static',
 		'@': 'pages',
+		'Common': 'pages/common',
 		'Index@': 'pages/index'
 	},
 	// 外部扩展
