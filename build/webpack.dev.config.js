@@ -39,7 +39,6 @@ module.exports = webpackMerge(baseWebpackConfig, {
 		new FriendlyErrorsPlugin()
 	].concat(config.template.map(template => {
 		let chunkName = template.split('/').slice(-2)[0];
-
 		return new HtmlWebpackPlugin({
 			filename: chunkName + '.html',
 			template: template,
