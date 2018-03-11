@@ -1,8 +1,8 @@
 /**
  * @description util工具集
- * @author minfive
+ * @author milk
  * @date 2017-07-17, 11:29:04 GMTCST
- * @lastModify minfive
+ * @lastModify milk
  * @lastDate 2017-07-17, 11:29:04 GMTCST
  */
 

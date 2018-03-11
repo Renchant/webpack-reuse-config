@@ -1,8 +1,8 @@
 /**
  * @description dev
- * @author minfive
+ * @author milk
  * @date 2017-07-17, 17:56:13 GMTCST
- * @lastModify minfive
+ * @lastModify milk
  * @lastDate 2017-07-25, 17:18:17 GMTCST
  */
 
@@ -39,8 +39,9 @@ function addHRM(entry) {
 
     return result;
 }
-
+console.log(webpackConfig.entry);
 webpackConfig.entry = addHRM(webpackConfig.entry);
+console.log(webpackConfig.entry);
 
 const compiler = webpack(webpackConfig);
 

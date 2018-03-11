@@ -1,8 +1,8 @@
 /**
  * @description webpack通用配置
- * @author minfive
+ * @author milk
  * @date 2017-07-17, 10:44:21 GMTCST
- * @lastModify minfive
+ * @lastModify milk
  * @lastDate 2017-07-17, 10:44:21 GMTCST
  */
 
@@ -12,7 +12,7 @@ module.exports = {
 	// 多页配置
 	isMultiplePage: true,
 	// 是否启用异步加载功能
-	isOpenSyncImport: true,
+	isOpenSyncImport: false,
 	// 最小chunk的大小
 	minChunkSize: 10000,
 	// dev模式下是否自动打开页面

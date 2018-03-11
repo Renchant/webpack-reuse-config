@@ -1,8 +1,8 @@
 /**
  * @description 生产环境webpack配置
- * @author minfive
+ * @author milk
  * @date 2017-07-17, 14:17:52 GMTCST
- * @lastModify minfive
+ * @lastModify milk
  * @lastDate 2017-07-17, 14:17:52 GMTCST
  */
 

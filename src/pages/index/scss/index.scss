@@ -1,0 +1,179 @@
+@import 'base';
+$mainColor: #1369bf;
+$borderRadius: .06rem;
+$descColor: #666;
+$titleColor: #333;
+.container {
+    position: relative;
+    overflow: hidden;
+    min-height: 100%;
+    width: 100%;
+    -webkit-overflow-scrolling:touch;
+}
+.header {
+    display: block;
+    width: 100%;
+    height: 4.79rem;
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.main {
+    padding: 0 .3rem;
+    .main-list {
+        font-size: .24rem;
+        color: $descColor;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .list-item {
+        display: flex;
+        flex-direction: column;
+        padding: .2rem 0;
+        border-bottom: 1px solid #ededed;
+    }
+    .item-desc {
+        margin-top: .1rem;
+    }
+    .main-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .item-icon {
+            display: block;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+        }
+        .base-info {
+            flex: 1;
+            margin: 0 .4rem;
+            h3{
+                padding: 0;
+                margin: 0;
+                font-size: .3rem;
+                line-height: 1;
+                color: $titleColor;
+            }
+        }
+        .item-btn{
+            display: block;
+            font-size: .3rem;
+            height: .6rem;
+            width: 1.8rem;
+            background: $mainColor;
+            border-radius: $borderRadius;
+            color: #fff;
+        }
+        .base-info-data {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.footer {
+    padding-bottom: .8rem;
+    .foot-title {
+        font-size: .3rem;
+        color: $titleColor;
+        text-align: center;
+        margin: .4rem 0;
+        span{
+            color: $mainColor;
+            font-size: .42rem;
+            font-weight: bold;
+        }
+    }
+    .input-item {
+        display: flex;
+        font-size: .3rem;
+        color: $descColor;
+        width: 82%;
+        align-items: center;
+        margin: 0 auto .2rem;
+        .input-label {
+            display: inline-block;
+            min-width: 1.1rem;
+            text-align: right;
+            margin-right: .1rem;
+        }
+        .input-form {
+            display: inline-block;
+            height: .64rem;
+            flex: 1;
+            border: 1px solid #175ea5;
+            border-radius: $borderRadius;
+            color: $descColor;
+            padding-left: .3rem;
+            outline: none;
+        }
+        .special-input {
+            display: block;
+            width: 2.2rem;
+            height: .64rem;
+            border: 1px solid #175ea5;
+            border-radius: $borderRadius;
+            color: $descColor;
+            padding-left: .3rem;
+            outline: none;
+        }
+        .input-btn {
+            display: inline-block;
+            height: .64rem;
+            width: 2.2rem;
+            color: #fff;
+            background: $mainColor;
+            border-radius: $borderRadius;
+            margin-left: .2rem;
+            font-size: .3rem;
+        }
+    }
+    .footer-btn {
+        display: block;
+        width: 4rem;
+        height: .64rem;
+        background: $mainColor;
+        color: #fff;
+        font-size: .3rem;
+        border-radius: $borderRadius;
+        margin: .4rem auto 0; 
+    }
+}
+
+.dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .dialog-content {
+        display: flex;
+        flex-direction: column;
+        width: 5.5rem;
+        padding: .4rem;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        color: #333;
+        font-size: .3rem;
+        border-radius: .1rem;
+        .dialog-title {
+            font-weight: bold;
+        }
+        .dialog-qrcode {
+            display: block;
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+}

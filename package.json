@@ -1,7 +1,7 @@
 {
-  "name": "wanqu-qutuitui-official-gadgets",
-  "author": "友友传媒",
-  "description": "玩趣-趣推推c端",
+  "name": "webpack-reuse-config",
+  "author": "milk",
+  "description": "webpack复用配置",
   "scripts": {
     "lint": "node build/lint",
     "upload": "node build/upload",
