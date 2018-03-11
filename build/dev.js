@@ -39,9 +39,7 @@ function addHRM(entry) {
 
     return result;
 }
-console.log(webpackConfig.entry);
 webpackConfig.entry = addHRM(webpackConfig.entry);
-console.log(webpackConfig.entry);
 
 const compiler = webpack(webpackConfig);
 
